@@ -1,0 +1,96 @@
+.basicButtonStyle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+	outline: none;
+	border: none;
+	border: 1px solid #eee;
+	border-radius: 25px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #eee;
+	cursor: pointer;
+	padding: 12px 20px;
+	transition: all 0.4s ease-in-out;
+	&:hover {
+		background-color: #eee;
+		color: black;
+	}
+}
+
+.heroWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: black;
+	font-family: 'Rubik', sans-serif;
+	color: #eee;
+	padding: 60px 15px;
+}
+
+.title {
+	font-weight: 800;
+	font-size: 75px;
+	@media (min-width: 375px) {
+		font-size: 85px;
+	}
+	@media (min-width: 425px) {
+		font-size: 100px;
+	}
+}
+
+.subtitle {
+	margin-top: 0;
+	font-weight: 600;
+	font-size: 45px;
+}
+
+.red_span {
+	color: #d41763;
+}
+
+.button_group {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+
+	@media (min-width: 400px) {
+		flex-direction: row;
+	}
+}
+
+.btn_resume {
+	@extend .basicButtonStyle;
+	text-decoration: none;
+	border: 1px solid #d41763;
+	background: #d41763;
+	color: #fff;
+	margin-right: 15px;
+	&:hover {
+		background: none;
+		color: #d41763;
+	}
+	@media (max-width: 399px) {
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	@media (max-width: 399px) {
+		margin-right: 0;
+	}
+}
+
+.btn_jump {
+	@extend .basicButtonStyle;
+	@media (max-width: 399px) {
+		display: inline-block;
+		width: 100%;
+		margin-top: 15px;
+	}
+}

@@ -1,0 +1,48 @@
+.hashPositionNavOffset {
+	height: 25px;
+}
+.projects_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: black;
+	padding: 15px;
+	font-family: 'Rubik', sans-serif;
+}
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 90%;
+	> h3 {
+		color: #eee;
+		margin: 20px 0;
+	}
+	> h5 {
+		color: #808080;
+		font-weight: 400;
+		margin: 20px 0;
+	}
+}
+.red_span {
+	color: #d41763;
+}
+
+.projectCard_container {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: flex-start;
+	align-items: stretch;
+	grid-gap: 30px;
+	margin-bottom: 35px;
+	width: 90%;
+	@media (min-width: 750px) {
+		grid-template-columns: 1fr 1fr;
+	}
+	@media (min-width: 955px) {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
