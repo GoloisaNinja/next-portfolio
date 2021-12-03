@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import styles from './blogArticleCard.module.scss';
 
-export function BlogArticleCard({ title, link, preview, image }) {
+export function BlogArticleCard({ title, preview, image }) {
 	const router = useRouter();
 	const altImageText = {
 		'Changing careers is scary': 'A lone boat on a very big body of water',

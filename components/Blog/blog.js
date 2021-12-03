@@ -43,7 +43,6 @@ function Blog({ articles }) {
 							key={article.id}
 							title={article.title}
 							preview={article.preview}
-							link={article.title.replaceAll(' ', '_')}
 							image={article.image}
 						/>
 					))}
