@@ -12,7 +12,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/Culchr-app`,
 			live: `https://www.culchr.pw`,
 			name: 'culchrReactApp',
-			imgsrc: '/culchrReactApp.png',
+			imgsrc: '/culchrReactApp.webp',
 		},
 		{
 			id: 'p2',
@@ -22,7 +22,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/hatAttack`,
 			live: `https://wizardly-banach-d5eea6.netlify.app/`,
 			name: 'hatShopify',
-			imgsrc: '/hatShopify.png',
+			imgsrc: '/hatShopify.webp',
 		},
 		{
 			id: 'p3',
@@ -32,7 +32,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/useddit`,
 			live: `https://useddit.netlify.app/`,
 			name: 'usedditReddit',
-			imgsrc: '/usedditReddit.png',
+			imgsrc: '/usedditReddit.webp',
 		},
 		{
 			title: `Neon Unicorn`,
@@ -41,7 +41,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/wifeyTestShop`,
 			live: `https://neonunicorntest.netlify.app/`,
 			name: 'neonUnicornShop',
-			imgsrc: '/neonUnicornShop.png',
+			imgsrc: '/neonUnicornShop.webp',
 		},
 		{
 			id: 'p4',
@@ -51,7 +51,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/movie-partners`,
 			live: `https://www.wewatch.pw`,
 			name: 'mp',
-			imgsrc: '/mp.png',
+			imgsrc: '/mp.webp',
 		},
 		{
 			id: 'p5',
@@ -61,7 +61,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/expencils`,
 			live: `https://collins-expencils.herokuapp.com/`,
 			name: 'expencils',
-			imgsrc: '/expencils.png',
+			imgsrc: '/expencils.webp',
 		},
 		{
 			id: 'p6',
@@ -71,7 +71,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/shortlyURL`,
 			live: `https://www.fpd.pw`,
 			name: 'shortly1',
-			imgsrc: '/shortly1.png',
+			imgsrc: '/shortly1.webp',
 		},
 		{
 			id: 'p7',
@@ -82,7 +82,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/newbsanity-app`,
 			live: `https://collins-newbsanity.herokuapp.com/`,
 			name: 'newbsanity',
-			imgsrc: '/newbsanity.png',
+			imgsrc: '/newbsanity.webp',
 		},
 		{
 			id: 'p8',
@@ -92,7 +92,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/SocialDevs`,
 			live: `https://collins-socialdevs.herokuapp.com/`,
 			name: 'socialDevs',
-			imgsrc: '/socialDevs.png',
+			imgsrc: '/socialDevs.webp',
 		},
 		{
 			id: 'p9',
@@ -102,7 +102,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/PlayPawsReview`,
 			live: `https://playpaws.netlify.app/`,
 			name: 'playpaws',
-			imgsrc: '/playpaws.png',
+			imgsrc: '/playpaws.webp',
 		},
 		{
 			id: 'p10',
@@ -112,7 +112,7 @@ function Projects() {
 			github: `https://github.com/GoloisaNinja/resume-game`,
 			live: `https://jcodes.me`,
 			name: 'rgame',
-			imgsrc: '/rgame.png',
+			imgsrc: '/rgame.webp',
 		},
 	];
 
