@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { FaGithubAlt, FaGlobe, FaCaretRight } from 'react-icons/fa';
+import {
+	FaGithubAlt,
+	FaGlobe,
+	FaCaretRight,
+	FaBars,
+	FaMinus,
+} from 'react-icons/fa';
 import { nanoid } from 'nanoid';
 import styles from './projectCard.module.scss';
 
@@ -39,7 +45,7 @@ function ProjectCard({ image, title, description, tags, github, live }) {
 						}
 						aria-label={`expands and contracts the detail section for the ${title} project`}
 						onClick={(e) => handleSectionExpand()}>
-						<FaCaretRight />
+						{!shouldProjectSectionExpand ? <FaBars /> : <FaMinus />}
 					</button>
 				</div>
 				<div

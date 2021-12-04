@@ -77,7 +77,6 @@ export async function getStaticProps(context) {
 	if (response.data.length > 0) {
 		article = response.data.find((article) => article.title === articleId);
 	}
-	console.log(article);
 	return {
 		props: { article },
 	};
@@ -102,7 +101,7 @@ export async function getStaticPaths() {
 	}));
 	return {
 		paths: pathsWithParams,
-		fallback: 'blocking',
+		fallback: false,
 	};
 }
 export default ArticleTemplate;
